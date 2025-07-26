@@ -26,8 +26,8 @@
     }
     .ue-box {
       background: white;
-      border: 2px solid #007bff;
-      color: #007bff;
+      border: 2px solid #FF000f;
+      color: #FF000f;
       padding: 30px;
       border-radius: 10px;
       text-align: center;
@@ -37,12 +37,32 @@
       transition: 0.2s;
     }
     .ue-box:hover {
-      background: #007bff;
+      background: #FF000f;
       color: white;
     }
   </style>
 </head>
 <body>
+  <header>
+   
+    <button onclick="history.back()" class="back-button">← </button>
+  <style>
+    .back-button {
+      background-color: #FF0000;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 20px;
+    }
+  
+    .back-button:hover {
+      background-color: #FF0000;
+    }
+  </style>
+  </header>
 
   <div class="ue-grid">
     <a class="ue-box" href="Instrumentation/">Instrumentation</a>
